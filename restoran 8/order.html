@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link type="Image/x-icon" href="logo.png" rel="icon">
+    <title>Заказ столика</title>
+    <link rel="stylesheet" href="orstyle.css" />
+    <script src="orjs.js" defer></script>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class='header-linee'>
+      <div>
+          <a href='file:///C:/Users/Eldar/Desktop/%D0%A1%D0%B0%D0%B9%D1%82/restoran%208/index.html' class='header-butt'>НАЗАД</a>
+      </div>
+    </div>
+    <div class="card">
+        <section class="container">
+            <header class="header"><h1>Заказ столика</h1><hr></header>
+            <form action="#" class="form">
+              <div class="input-box">
+                <label><h4>ФИО</h4></label>
+                <input type="text" placeholder="Введите ФИО" required />
+              </div>
+      
+              <div class="column">
+                <div class="input-box">
+                  <label><h5>Номер вашего телефона</h5></label>
+                  <input type="number" placeholder="Введите номер телефона" required />
+                </div>
+                <div class="input-box">
+                  <label><h5>Дата и время</h5></label>
+                  <input type="datetime-local" placeholder="Введите дату и время" required />
+                </div>
+              </div>
+              <div class="gender-box">
+                <h5>Гендер</h5>
+                <div class="gender-option">
+                  <div class="gender">
+                    <input type="radio" id="check-male" name="gender" checked />
+                    <label for="check-male">Мужчина</label>
+                  </div>
+                  <div class="gender">
+                    <input type="radio" id="check-female" name="gender" />
+                    <label for="check-female">Женщина</label>
+                  </div>
+                  <div class="gender">
+                    <input type="radio" id="check-other" name="gender" />
+                    <label for="check-other">Предпочитают не говорить</label>
+                  </div>
+                </div>
+              </div>
+              <div class="input-box address">
+                <label><h5>Адрес</h5></label>
+                <div class="column">
+                  <div class="select-box">
+                    <select>
+                      <option hidden>Город</option>
+                      <option>Астана</option>
+                      <option>Алматы</option>
+                    </select>
+                  </div>
+                  <input type="text" placeholder="Введите ваш регион" required />
+                </div>
+                <div class="column">
+                  <input type="text" placeholder="Введите ваш адрес" required />
+                  <input type="number" placeholder="Введите номер вашего дома/квартиры" required />
+                </div>
+              </div>
+              <div class="column">
+                <div class="input-box">
+                <label><h5>Сообщение</h5></label>
+                <textarea type="text" placeholder="Напишите своё сообщение"></textarea>
+                </div>
+              </div>
+              <button>Отправить</button>
+            </form>
+          </section>
+    </div>
+  </body>
+</html>
